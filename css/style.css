@@ -5,8 +5,36 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(123, 174, 219);
-    color: black;
+    background-color: #48525c;
+    color: #000000;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #f0817db0;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+header ul{
+    position: absolute;
+    top: 7;
+    right: 18%;
+    list-style: none;
+    display: flex;
+   
+}
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 7px 5px;
+    transition: background-color 0.3s;
+    font-size: 1.5rem;
+}
+header nav a:hover{
+    background-color: rgb(224, 171, 158);
 }
 .logo{
     width: 100px;
