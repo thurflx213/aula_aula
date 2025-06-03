@@ -1,0 +1,66 @@
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+.linha-menu-top, .linha-menu-bottom{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin-top: 10px;
+}.menu-toggle{
+    display: none;
+ }
+ .linha-menu-center{
+    background-color: white;
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+ }
+ .menu-toggle{
+    display: none;
+ }
+ /* 
+   media query
+   se a largura for ate 768 faça
+*/
+@media (max-width: 768px){
+    .navbar-desktop{
+        /*medidas relativas
+        % de 0 ao infinito
+        % vh viewport altura
+        | vw viewport largura
+        */
+      display: none;
+      flex-direction: column;
+      transition: transform 0.3s ease-in-out;
+      transform: translateY(-100%);
+    }
+
+.menu-icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+.menu-toggle:checked ~ .navbar-desktop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgb(120, 231, 198);
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+.menu-toggle:checked ~ .menu-icon .linha-menu-top{
+        transform: translateY(9px) rotate(45deg);
+}
+.menu-toggle:checked ~ .menu-icon .linha-menu-bottom{
+    transform: translateY(-9px) rotate(-45deg);
+}
+.menu-toggle:checked ~ .menu-icon .linha-menu-center{
+    display: none;
+}
+}
