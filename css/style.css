@@ -5,59 +5,47 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #87929e;
-    color: #000000;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.5;
 }
+
 header{
     position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    background-color: #f0817db0;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
     width: 100%;
-    z-index: 4;
-}
-header ul{
-    position: absolute;
-    top: 8;
-    right: 19%;
-    list-style: none;
+    top: 0;
     display: flex;
-   
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #3b93999a;
 }
-header nav a{
-    font-family:unset ;
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+
+a{
     text-decoration: none;
-    color: #ffffff;
-    padding: 7px 5px;
-    transition: background-color 0.3s;
+    color: #fff;
     font-size: 1.5rem;
 }
-header nav a:hover{
-    background-color: rgb(224, 171, 158);
+
+a:hover{
+    color: #2f11d6;
 }
-.logo{
-    width: 130px;
-    height: 80px;
-}
-.redes{
-    width: 35px;
-    height: 35px;
-}
+
 main{
-    height: 110vh;
-    display: flex;
+    max-width: 1200px;
+    margin: 140px 20%;
 }
-.modal{
-    position: fixed;
-    left: 30%;
-    top: 200px;
-    width: 60%;
-    background-color: #5a4c4c;
-    color: #3700ff;
-    padding: 20px;
-    z-index: 5;
+
+.logo{
+    width: 80px;
+}
+
+.redes{
+    width: 1.5rem;
+    margin-right: 10px;
 }
