@@ -29,7 +29,7 @@ ul{
     justify-content: flex-start;
     gap: 10%;
     margin-top: 50px;
-    
+
 
 }
 .navbar-mobile{
@@ -44,7 +44,7 @@ a{
 }
 
 a:hover{
-    color: #2f11d6;
+    color: #d65911;
 }
 
 main{
@@ -59,4 +59,18 @@ main{
 .redes{
     width: 1.5rem;
     margin-right: 10px;
+}
+.botao-flutuante{
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #50af58;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: o 4px 8px rgb(236, 48, 48);
 }
