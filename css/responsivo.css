@@ -60,7 +60,7 @@
     height: 100vh;
 }
 .menu-toggle:checked ~ .menu-icon .linha-menu-top{
-        transform: translateY(9px) rotate(45deg);
+        transform: translateY(6px) rotate(45deg);
 }
 .menu-toggle:checked ~ .menu-icon .linha-menu-bottom{
     transform: translateY(-9px) rotate(-45deg);
