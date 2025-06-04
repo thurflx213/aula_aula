@@ -4,14 +4,25 @@
    se a largura for ate 768 faça
 */
 @media (max-width: 768px){
-    .navbar-desktop{
         /*medidas relativas
         % de 0 ao infinito
         % vh viewport altura
         | vw viewport largura
         */
+        .navbar-desktop{
+            display: none;
+        }
+        .navbar-mobile{
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            justify-content: space-evenly;
+            padding: 10px;
+            height: 60px;
+            background-color: rgba(243, 171, 64, 0.897);
+        }
     }
-}
 @media (max-width: 460px){
 
 }
