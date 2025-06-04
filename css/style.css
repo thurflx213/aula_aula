@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position:fixed;
     width: 100%;
     top: 0;
     display: flex;
@@ -64,7 +64,7 @@ main{
     position: fixed;
     bottom: 60px;
     right: 20px;
-    background-color: #50af58;
+    background-color: #74c47a;
     border: none;
     border-radius: 50%;
     width: 60px;
@@ -72,5 +72,5 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: o 4px 8px rgb(236, 48, 48);
+    box-shadow: 0px 7px 8px grey ;
 }
