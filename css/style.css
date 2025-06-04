@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: #3b93999a;
+    background-color: #993b3bea;
 }
 
 ul{
@@ -30,6 +30,7 @@ a{
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    text-shadow: 2px 4px gray;
 }
 
 a:hover{

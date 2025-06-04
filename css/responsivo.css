@@ -11,7 +11,7 @@
     display: none;
  }
  .linha-menu-center{
-    background-color: white;
+    background-color: rgb(78, 40, 40);
     height: 5px;
     width: 60px;
     margin-top: 10px;
@@ -30,10 +30,12 @@
         % vh viewport altura
         | vw viewport largura
         */
-      display: none;
+        position: absolute;
+      opacity: 0;
+      width: 100%;
       flex-direction: column;
-      transition: transform 0.3s ease-in-out;
-      transform: translateY(-100%);
+      transition: transform 0.10s ease-in-out;
+      transform: translateX(100%);
     }
 
 .menu-icon{
@@ -48,11 +50,14 @@
     align-items: center;
     width: 100%;
     position: absolute;
-    top: 60px;
+    top: 120px;
     left: 0;
-    background-color: rgb(135, 155, 150);
+    background-color: rgba(204, 98, 94, 0.705);
+    backdrop-filter: blur(10px);
+    opacity: 1;
     transition: all 0.3s ease;
-    transform: translateY(0);
+    transform: translateX(0);
+    height: 100vh;
 }
 .menu-toggle:checked ~ .menu-icon .linha-menu-top{
         transform: translateY(9px) rotate(45deg);
