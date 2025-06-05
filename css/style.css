@@ -1,52 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.5;
-}
+@import url("base.css");
+@import url("header.css");
+@import url("mobile.css");
+@import url("animar.css")
 
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    background-color: #993b3bea;
-}
-
-ul{
-    display: flex;
-    list-style: none;
-}
-
-
-a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    text-shadow: 2px 4px gray;
-}
-
-a:hover{
-    color: #000000;
-}
-
-main{
-    max-width: 1200px;
-    margin: 140px 20%;
-}
-
-.logo{
-    height: 80px;
-}
-
-.redes{
-    width: 1.5rem;
-    margin-right: 10px;
-}

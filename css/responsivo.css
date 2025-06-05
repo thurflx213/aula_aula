@@ -1,24 +1,5 @@
-.menu-icon{
-    display: none;
-    cursor: pointer;
-}
-.linha-menu-top, .linha-menu-bottom{
-    width: 50px;
-    height: 5px;
-    background-color: white;
-    margin-top: 10px;
-}.menu-toggle{
-    display: none;
- }
- .linha-menu-center{
-    background-color: rgb(78, 40, 40);
-    height: 5px;
-    width: 60px;
-    margin-top: 10px;
- }
- .menu-toggle{
-    display: none;
- }
+
+ 
  /* 
    media query
    se a largura for ate 768 faça
@@ -52,7 +33,7 @@
     position: absolute;
     top: 120px;
     left: 0;
-    background-color: rgba(204, 98, 94, 0.705);
+    background-color: #5dce29ab;
     backdrop-filter: blur(10px);
     opacity: 1;
     transition: all 0.3s ease;
