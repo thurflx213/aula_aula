@@ -11,12 +11,14 @@
         % vh viewport altura
         | vw viewport largura
         */
+      
         position: absolute;
       opacity: 0;
       width: 100%;
       flex-direction: column;
       transition: transform 0.10s ease-in-out;
       transform: translateX(100%);
+     line-height: 4rem;
       
     }
 
@@ -34,7 +36,7 @@
     position: absolute;
     top: 120px;
     left: 0;
-    background-color: #5dce29ab;
+    background-color: #5dce2965;
     backdrop-filter: blur(10px);
     opacity: 1;
     transition: all 0.3s ease;
