@@ -14,9 +14,9 @@ body{
 
 
 main{
-    display: block;
+    display:block;
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 7rem auto;
 }
 .section-title{
     text-align: center;
