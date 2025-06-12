@@ -1,7 +1,7 @@
 :root {
-    --cor-texto-primario: black;
+    --cor-texto-primario: #5c5959;
     --cor-texto-segundario: white;
-    --cor-fundo-primario: #5dce29ab;
+    --cor-fundo-primario: #89d47a;
     --cor-fundo-segundario: #5dce29ab;
     --fonte-principal: 'Arial', 'sans-serif';
     --espacamento: 1rem;
