@@ -1,0 +1,13 @@
+.hero{
+    position: relative;
+    text-align: center;
+    width: 97%;
+    margin: 10rem 1rem 1rem 1rem;
+    
+    margin-bottom: 2rem;
+}
+.hero-image{
+    width: 97%;
+    height: auto;
+    z-index: 1;
+}

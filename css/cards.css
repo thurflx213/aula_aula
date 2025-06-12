@@ -1,0 +1,20 @@
+.cards{
+    padding: 2rem 0;
+}
+.cards_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.card-item{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 280px;
+    background-color: var(--cor-fundo-primario);
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
